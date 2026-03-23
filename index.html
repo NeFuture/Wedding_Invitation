@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приглашение на свадьбу Ричарда и Юли</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="invitation">
+        <section class="hero">
+            <!-- Фоновое изображение для первого слайда: замените URL в Styles.css в селекторе .hero -->
+            <div class="hero-content">
+                <p class="intro">Дорогие друзья!</p>
+                <h1>Ричард &amp; Юлия</h1>
+                <p class="subtitle">Один из дней в этом году для нас будет особенным, и мы хотим разделить его с вами.</p>
+                <p class="hero-date">06 августа 2026</p>
+            </div>
+        </section>
+
+        <section class="calendar">
+            <!-- Фон для календаря: замените URL в Styles.css в селекторе .calendar 
+            <div class="calendar-grid">
+                <div class="month">Август 2026</div>
+                <div class="weekdays">
+                    <div>Пн</div><div>Вт</div><div>Ср</div><div>Чт</div><div>Пт</div><div>Сб</div><div>Вс</div>
+                </div>
+                <div class="days">
+                    <div></div><div></div><div></div><div></div><div></div><div>1</div><div>2</div>
+                    <div>3</div><div>4</div><div>5</div><div class="highlighted">6</div><div>7</div><div>8</div><div>9</div>
+                    <div>10</div><div>11</div><div>12</div><div>13</div><div>14</div><div>15</div><div>16</div>
+                    <div>17</div><div>18</div><div>19</div><div>20</div><div>21</div><div>22</div><div>23</div>
+                    <div>24</div><div>25</div><div>26</div><div>27</div><div>28</div><div>29</div><div>30</div>
+                    <div>31</div>
+                </div>
+            </div>
+            -->
+        </section>
+
+        <section class="location">
+            <!-- Фоновое изображение для секции «Локация»: замените URL в Styles.css в селекторе .location -->
+            <h2>Локация торжественной церемонии</h2>
+            <p>Rīgas Pilsētas Limeļu Dzimtsarakstu nodaļa<br>
+            Rūpniecības iela 21<br>
+            Начало мероприятия в 11:00,<br><br> 
+            Сама роспись пройдет без гостей<br> 
+            Но приглашаем вас встретить нас у ЗАГСа <br> 
+            Чтобы разделить с нами наши первые минуты в статусе семьи<br> 
+            Пофотографироваться, угостититься закусками и выпить шампанского </p>
+            <div class="map-placeholder">
+                <p>Карта ЗАГСа</p>
+                <!-- Здесь можно вставить изображение карты -->
+            </div>
+            <br><br><br><br>
+            <h2>Праздничный банкет</h2>
+            <p>Porto Resort hotel & restaurant<br>
+            Medzābaki 2, Lilaste<br>
+            Начало в 15:00</p><br>
+            <div class="map-placeholder banquet-map-placeholder">
+                <p>Карта ресторана</p>
+                <!-- Здесь можно вставить изображение карты -->
+            </div>
+            <br>
+            <p class="note" style="font-size: 13px;">Пожалуйста, позаботьтесь о том, как будете добираться до места празднования. Если будут трудности, сообщите!</p>
+            <br><br><br>
+        </section>
+
+        <section class="schedule">
+
+</section>
+
+        <section class="details">
+            <!-- Фоновое изображение для секции «Детали»: замените URL в Styles.css в селекторе .details -->
+            <h2>Детали</h2>
+            <p>От всего сердца просим вас воздержаться от возгласов "горько", нам хватит ваших нежных слов и поздравлений <br>
+             Мы были бы рады сохранять атмосферу уюта и семейного праздника ❤️</p>
+            <p>Главное для нас - это ваше внимание, а ваши денежные пожелания в конверте будут лучшим подарком, который поможет приблизиться нам к заветной мечте.</p>
+            <p>Если решите порадовать нас цветами, будем благодарны букетам из живых цветов в корзинках</p>
+            <br><br><br><h2>Присутствие</h2>
+                <p>Пожалуйста, ваше окончательное решение о присутствии на нашем празднике сообщить нам до 1 июня 2026 года.</p>
+            <br><br>
+        </section>
+
+        <section class="questionnaire">
+            <h2>Анкета</h2>
+            <p>Чтобы все прошло идеально в этот день и он запомнился надолго, пожалуйста, ответьте на несколько вопросов!</p>
+            <form id="rsvp-form">
+                <div class="question">
+                    <h3>1. Предпочтения по меню</h3>
+                    <p>Просьба выбрать вариант блюд, который вам понравился и вы бы хотели попробовать. Подумайте хорошо прежде чем ответить, так как блюда будут каждому по выбранным предпочтениям.</p>
+                    <label><input type="radio" name="menu" value="1"> 1) Grilēta laša fileja terijaki glazura ar melno rīsu risoto, uptiem spargeliem un krēmīgu baltuīna mērci</label><br>
+                    <label><input type="radio" name="menu" value="2"> 2) Lielopa filijas steiks sarkanvīna mērce ar kartupeļu gratēnu un ceptiem sezama olāczeniem</label><br>
+                    <label><input type="radio" name="menu" value="3"> 3) Pīles kreotina apelsīnu - kiršu glazurmērce ar batāsu biezeni un uptiem sezonas darzeniem</label>
+                </div>
+                <div class="question">
+                    <h3>2. Опрос пожелания по алкоголю</h3>
+                    <p>Выберите предпочтения:</p>
+                    <label><input type="checkbox" name="alcohol" value="vodka"> Водка</label><br>
+                    <label><input type="checkbox" name="alcohol" value="whiskey"> Виски</label><br>
+                    <label><input type="checkbox" name="alcohol" value="redwine"> Вино красное</label><br>
+                    <label><input type="checkbox" name="alcohol" value="whitewine"> Вино белое</label><br>
+                    <label><input type="checkbox" name="alcohol" value="champagne"> Шампанское</label><br>
+                    <label><input type="checkbox" name="alcohol" value="rum"> Ром</label>
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+
+        <footer>
+            <h2>До Встречи!</h2>
+            <p>Ричард и Юлия</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
