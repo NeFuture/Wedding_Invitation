@@ -1,8 +1,7 @@
-/* Темная элегантная тема, вдохновлённая приглашением из Pinterest */
 
 body {
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     background: radial-gradient(circle at top, rgba(255,255,255,0.04), rgba(0,0,0,0.85)),
                 linear-gradient(135deg, #0b0c10 0%, #1c2030 100%);
     color: #f2f2f2;
@@ -383,31 +382,65 @@ footer p {
 
 
 @media (max-width: 720px) {
+
+    .invitation {
+        max-width: 100%;
+        border-radius: 0;
+    }
+
     .hero {
-        padding: 200px 20px 300px;
+        padding: 120px 10px 120px;
         background-size: cover;
-        /*padding: 550px 33px 132px;*/
+        background-position: center;
     }
 
-    .calendar {
-        padding: 0px 0px 0px;
+    .location,
+    .calendar,
+    .details,
+    .schedule,
+    footer {
+        background-size: cover;
+        background-position: center;
+        min-height: 230px;
+        
+        
+    }
+    .calendar
+    {
+           background-size: 100%;
+           min-height: 150px;
+    }
+    .schedule
+    {
+         background-size: 140%;
+         min-height: 270px;
+    }
+
+    .map-placeholder {
+        height: 150px;
         background-size: cover;
     }
 
-    .schedule {
+    .banquet-map-placeholder {
+        width: 80%;
+        height: 220px;
         background-size: cover;
-    }
-
-    .hero h1 {
-        font-size: 3rem;
-    }
-
-    .date-badge {
-        flex-direction: column;
-        gap: 8px;
     }
 
     section {
-        padding: 30px 24px;
+        padding: 20px 12px;
     }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
 }
